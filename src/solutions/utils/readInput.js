@@ -7,7 +7,7 @@ export function readInput(filePath) {
     return data
       .split(/\r?\n/)
       .map((line) => {
-        return line;
+        return line.trim();
       })
       .filter((line) => !!line);
   } catch (err) {
