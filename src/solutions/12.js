@@ -140,14 +140,11 @@ export function solutionPartOne(map) {
   }
 
   let sum = 0;
+  let sumSidesArea = 0;
   mapCounter.forEach(([area, walls, sides], key) => {
     sum += area * walls;
+    sumSidesArea += area * sides;
   });
 
-  let newSum = 0;
-  mapCounter.forEach(([area, _, sides]) => {
-    newSum += area * sides;
-  });
-
-  return [sum, newSum];
+  return [sum, sumSidesArea];
 }
