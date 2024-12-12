@@ -1,7 +1,7 @@
 import path from "node:path";
 import { expect, it, describe } from "vitest";
 import { readInput } from "./utils/readInput";
-import { solutionPartOne, solutionPartTwo } from "./11";
+import { solutionPartTwo } from "./11";
 
 describe("Day 11", () => {
   function prepareData(filePath) {
