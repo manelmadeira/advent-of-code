@@ -5,7 +5,7 @@ import { solutionPartOne } from "./14";
 
 const REGEX = /.*=(\d+,\d+) .*=([-\d]+,[-\d]+)/g;
 
-describe("Day 13", () => {
+describe("Day 14", () => {
   function prepareData(filePath) {
     const dataArray = readInput(filePath);
 
