@@ -1,7 +1,8 @@
 {
   "name": "advent-of-code",
   "scripts": {
-    "test": "vitest"
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
